@@ -1,4 +1,4 @@
-def sort(T):
+def sortowanie(T):
     n=len(T) 
     for i in range(n-1):
         k=i
@@ -7,6 +7,7 @@ def sort(T):
                 k = j
         T[i],T[k] =T[k],T[i]
     return T
+
 lista=[13, 15, 2, 71, 8, 4, 6]
-wynik = sort(lista)
+wynik = sortowanie(lista)
 print(wynik)
